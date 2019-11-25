@@ -16,7 +16,7 @@
 
 <body>
   <nav role="navigation">
-    <div class="nav-wrapper container">
+    <div class="nav-wrapper container w-90">
       <div></div>
       <ul class="hide-on-med-and-down">
         <li><a href="#">Услуги</a></li>
@@ -25,14 +25,18 @@
         <li><a href="#">Цены</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
-      <a class="waves-effect waves-light btn">+375(29)555-55-55</a>
+      <div class="nav-contacts">
+          <a class="waves-effect waves-dark ">+375(29)555-55-55</a>
+          <a class="waves-effect waves-light btn">Перезвоните мне</a>
+      </div>
+      
 
       <ul id="nav-mobile" class="sidenav">
-          <li><a href="#">Услуги</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Наши работы</a></li>
-          <li><a href="#">Цены</a></li>
-          <li><a href="#">Контакты</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Наши работы</a></li>
+        <li><a href="#">Цены</a></li>
+        <li><a href="#">Контакты</a></li>
         <li><a class="waves-effect waves-light btn">+375(29)555-55-55</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -154,93 +158,122 @@
   </section>
   <section id="three">
     <div class="container">
-        <div class="index_title">
-            <h2>
-            <div class="title">
-                Наши услуги	
+      <div class="index_title">
+        <h2>
+          <div class="title">
+            Наши услуги
             <div class="line"></div>
-            </div>
-            </h2>
-            <div class="title">							Миссия нашей компании&nbsp;отличается недорогими 
-  ценами и отличным качеством предоставляемых услуг, что позволяет вывести автомобильный сервис области на новый качественный уровень.</div>
-        </div>
-        <div class="uslugi">
-          <div class="row" style=" margin-top: 30px;">
-            <a class="uslugi_more" href="/uslugi/avtostekla/">
-              <div class="col s3 uslugi_index_one ">
-                <div>
-                  
-                  <div class="column_uslugi" style="height: 286px;">
-                  <img src="images/items/usluga-1.jpg" class="img-responsive">
-                  </div>
-                  <div class="uslugi-text column_uslugi_text" style="height: 113px;">
-                  <h2>Автоэлектрика</h2>
-                  <div></div>
-                  </div>
-                    <div class="link"><span>Узнать больше</span></div>
-                </div>
-              </div>
-            </a>
-      
-            <a class="uslugi_more" href="/uslugi/shinomontazh/">
-              <div class="col s3 uslugi_index_one ">
-                <div>
-                  
-                  <div class="column_uslugi" style="height: 286px;">
-                  <img src="images/items/usluga-2.jpg" class="img-responsive">
-                  </div>
-                  <div class="uslugi-text column_uslugi_text" style="height: 113px;">
-                  <h2>Двигатель</h2>
-
-                  </div>
-                    <div class="link"><span>Узнать больше</span></div>
-                </div>
-              </div>
-            </a>
-      
-            <a class="uslugi_more" href="/uslugi/remont-dvigatelya/">
-              <div class="col s3 uslugi_index_one ">
-                <div>
-                  
-                  <div class="column_uslugi" style="height: 286px;">
-                  <img src="/images/items/usluga-3.jpg" class="img-responsive">
-                  </div>
-                  <div class="uslugi-text column_uslugi_text" style="height: 113px;">
-                  <h2>Подвеска</h2>
-                  <div></div>
-                  </div>
-                    <div class="link"><span>Узнать больше</span></div>
-                </div>
-              </div>
-            </a>
-      
-            <a class="uslugi_more" href="/uslugi/remont-korobki-peredach/">
-              <div class="col s3 uslugi_index_one ">
-                <div>
-                  
-                  <div class="column_uslugi" style="height: 286px;">
-                  <img src="/images/items/usluga-4.jpg" class="img-responsive">
-                  </div>
-                  <div class="uslugi-text column_uslugi_text" style="height: 113px;">
-                  <h2>Тормозная система</h2>
-                  <div></div>
-                  </div>
-                    <div class="link"><span>Узнать больше</span></div>
-                </div>
-              </div>
-            </a>
+          </div>
+        </h2>
+        <div class="title">Миссия нашей компании&nbsp;отличается недорогими
+          ценами и отличным качеством предоставляемых услуг, что позволяет вывести автомобильный сервис области на новый
+          качественный уровень.</div>
       </div>
-        </div>
     </div>
+      <div class="uslugi">
+        <div class="row" style=" margin-top: 30px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/items/usluga-1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Автоэлектрика<i
+                  class="material-icons right">more_vert</i></span>
+              
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Автоэлектрика<i
+                  class="material-icons right">close</i></span>
+              <ul>
+                <li>Ремонт и коррекция приборной панели </li>
+                <li>Ремонт, замена стартеров </li>
+                <li>Компьютерная диагностика </li>
+                <li>Ремонт моторчика печки </li>
+                <li>Замена лампочек </li>
+                <li>Ремонт, замена генераторов </li>
+            </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/items/usluga-2.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Двигатель<i
+                  class="material-icons right">more_vert</i></span>
+              
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Двигатель<i
+                  class="material-icons right">close</i></span>
+             <ul>
+               <li>Диагностика двигателей</li>
+               <li>Капитальный ремонт двигателей</li>
+               <li>Замер компрессии двигателя </li>
+               <li>Замена ГРМ ремней </li>
+               <li>Замена ГРМ цепи </li>
+             </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/items/usluga-3.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Подвеска<i
+                  class="material-icons right">more_vert</i></span>
+              
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Подвеска<i
+                  class="material-icons right">close</i></span>
+              <ul>
+                <li>Диагностика подвески </li>
+                <li>Замена амортизаторов </li>
+                <li>Замена сайлентблока </li>
+                <li>Замена шаровых соединений </li>
+                <li>Замена подшипников ступиц </li>
+                <li>Ремонт подвески </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/items/usluga-4.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Тормозная система<i
+                  class="material-icons right">more_vert</i></span>
+              
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Тормозная система<i
+                  class="material-icons right">close</i></span>
+              <ul>
+                <li>Замена тормозных колодок </li>
+                <li>Замена тормозной жидкости </li>
+                <li>Замена тормозных цилиндров </li>
+                <li>Замена тормозных шлангов и трубок </li>
+                <li>Диагностика тормозной системы </li>
+                <li>Замена тормозных дисков </li>
+                <li>Замена суппортов </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
   <section id="four">
     <div class="container">
       <div class="index_title">
         <h2>
-        <div class="title">
-          Преимущества нашего сервиса	
-        <div class="line"></div>
-        </div>
+          <div class="title">
+            Преимущества нашего сервиса
+            <div class="line"></div>
+          </div>
         </h2>
       </div>
       <div class="preim">
@@ -261,9 +294,9 @@
         <div class="advantage-container a-c-t">
           <h3 class="advantage-title">Команда</h3>
           <p class="advantage-text">
-          Наши сотрудники сертифицированы и имеют высшую квалификацию
+            Наши сотрудники сертифицированы и имеют высшую квалификацию
           </p>
-      </div>
+        </div>
       </div>
     </div>
   </section>
@@ -271,32 +304,33 @@
     <div class="container">
       <div class="index_title">
         <h2>
-        <div class="title">
-         Услуги и цены	
-        <div class="line"></div>
-        </div>
+          <div class="title">
+            Услуги и цены
+            <div class="line"></div>
+          </div>
         </h2>
       </div>
-        <div class="servise-table">
-          <div class="control-panel s3">
+      <div class="servise-table">
+        <div class="row">
+          <div class="control-panel col s4">
             <ul class="tabs">
-              <li class="tab col s3"><a class="active" href="#test1">Автоэлектрика</a></li>
-              <li class="tab col s3"><a href="#test2">Двигатель</a></li>
-              <li class="tab col s3"><a href="#test3">Подвеска</a></li>
-              <li class="tab col s3"><a href="#test4">ТОрмозная система</a></li>
+              <li class="tab "><a class="active" href="#test1">Автоэлектрика</a></li>
+              <li class="tab "><a href="#test2">Двигатель</a></li>
+              <li class="tab "><a href="#test3">Подвеска</a></li>
+              <li class="tab "><a href="#test4">ТОрмозная система</a></li>
             </ul>
           </div>
-          <div class="display-area col s9">
+          <div class="display-area col s8">
             <div id="test1" class="col s12">
               <table>
                 <thead>
                   <tr>
-                      <th>Name</th>
-                      <th>Item Name</th>
-                      <th>Item Price</th>
+                    <th>Перечень услгу</th>
+                    <th>Время</th>
+                    <th>Стоимость</th>
                   </tr>
                 </thead>
-        
+
                 <tbody>
                   <tr>
                     <td>Alvin</td>
@@ -315,17 +349,18 @@
                   </tr>
                 </tbody>
               </table>
+              <a class="waves-effect waves-light btn"><i class="material-icons left">add_circle</i>Заказать</a>
             </div>
             <div id="test2" class="col s12">
               <table>
                 <thead>
                   <tr>
-                      <th>Name</th>
-                      <th>Item Name</th>
-                      <th>Item Price</th>
+                    <th>Перечень услгу</th>
+                    <th>Время</th>
+                    <th>Стоимость</th>
                   </tr>
                 </thead>
-        
+
                 <tbody>
                   <tr>
                     <td>Alvin</td>
@@ -344,17 +379,18 @@
                   </tr>
                 </tbody>
               </table>
+              <a class="waves-effect waves-light btn"><i class="material-icons left">add_circle</i>Заказать</a>
             </div>
             <div id="test3" class="col s12">
               <table>
                 <thead>
                   <tr>
-                      <th>Name</th>
-                      <th>Item Name</th>
-                      <th>Item Price</th>
+                    <th>Перечень услгу</th>
+                    <th>Время</th>
+                    <th>Стоимость</th>
                   </tr>
                 </thead>
-        
+
                 <tbody>
                   <tr>
                     <td>Alvin</td>
@@ -373,17 +409,18 @@
                   </tr>
                 </tbody>
               </table>
+              <a class="waves-effect waves-light btn"><i class="material-icons left">add_circle</i>Заказать</a>
             </div>
             <div id="test4" class="col s12">
               <table>
                 <thead>
                   <tr>
-                      <th>Name</th>
-                      <th>Item Name</th>
-                      <th>Item Price</th>
+                    <th>Перечень услгу</th>
+                    <th>Время</th>
+                    <th>Стоимость</th>
                   </tr>
                 </thead>
-        
+
                 <tbody>
                   <tr>
                     <td>Alvin</td>
@@ -402,98 +439,115 @@
                   </tr>
                 </tbody>
               </table>
+              <a class="waves-effect waves-light btn"><i class="material-icons left">add_circle</i>Заказать</a>
             </div>
           </div>
         </div>
+
+      </div>
     </div>
   </section>
   <section id="six">
     <div class="container">
       <div class="index_title">
         <h2>
-        <div class="title">
-          Преимущества нашего сервиса	
-        <div class="line"></div>
-        </div>
+          <div class="title">
+            Преимущества нашего сервиса
+            <div class="line"></div>
+          </div>
         </h2>
       </div>
-        <div class="otzuvy">
-          <div class="otzuvy__item"></div>
-          <div class="otzuvy__item"></div>
-          <div class="otzuvy__item"></div>
-        </div>
+      <div class="otzuvy">
+        <div class="otzuvy__item"></div>
+        <div class="otzuvy__item"></div>
+        <div class="otzuvy__item"></div>
+      </div>
     </div>
   </section>
-  <section id="seven">
+  <section id="seven" class="z-depth-2">
     <div class="container">
-      
-      <div class="partnery">
-        <div class="partnery-slider">
-          <div>your content</div>
-          <div>your content</div>
-          <div>your content</div>
-          <div>your content</div>
+      <div class="row">
+        <div class="section-title col s3">
+          Наши партнеры
         </div>
+        <div class="col s9">
+            <div class="carousel">
+                <div class="carousel-item"><img src="images/partners/1.png"></div>
+                <div class="carousel-item"><img src="images/partners/2.png"></div>
+                <div class="carousel-item"><img src="images/partners/3.png"></div>
+                <div class="carousel-item"><img src="images/partners/5.png"></div>
+                <div class="carousel-item"><img src="images/partners/6.png"></div>
+              </div>
+              <div class="navigation">
+                  <div class="left">
+                    <svg version="1.1" class="svg-icon prev-arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                      viewBox="0 0 31.494 31.494" style="enable-background:new 0 0 31.494 31.494;" xml:space="preserve">
+                      <path class="st0" d="M10.273,5.009c0.444-0.444,1.143-0.444,1.587,0c0.429,0.429,0.429,1.143,0,1.571l-8.047,8.047h26.554
+                        c0.619,0,1.127,0.492,1.127,1.111c0,0.619-0.508,1.127-1.127,1.127H3.813l8.047,8.032c0.429,0.444,0.429,1.159,0,1.587
+                        c-0.444,0.444-1.143,0.444-1.587,0l-9.952-9.952c-0.429-0.429-0.429-1.143,0-1.571L10.273,5.009z"></path>
+                    </svg>
+                  </div>
+                  <div class="right">
+                    <svg version="1.1" class="svg-icon next-arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                      viewBox="0 0 31.5 31.5" style="enable-background:new 0 0 31.5 31.5;" xml:space="preserve">
+                      <path class="st0" d="M31.2,15c0.4,0.4,0.4,1.1,0,1.6l-10,10c-0.4,0.4-1.1,0.4-1.6,0c-0.4-0.4-0.4-1.1,0-1.6l8-8H1.1
+                        c-0.6,0-1.1-0.5-1.1-1.1s0.5-1.1,1.1-1.1h26.6l-8-8c-0.4-0.4-0.4-1.1,0-1.6c0.4-0.4,1.1-0.4,1.6,0L31.2,15z">
+                      </path>
+                    </svg>
+                  </div>
+              </div>
+        </div>
+        
       </div>
+     
+      
     </div>
   </section>
   <section id="eight">
-    <div class="container">
-     <div class="col s6">
-
-  <ul class="collapsible">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-  </ul>
-        
-     </div>
-     <div class="col s6">
-      <form>
-        <div class="row">
-          <div class="input-field col s12">
-            <i class="material-icons prefix">account_circle</i>
-            <input id="icon_prefix" type="text" class="validate">
-            <label for="icon_prefix">First Name</label>
-          </div>
-          <div class="input-field col s12">
-            <i class="material-icons prefix">phone</i>
-            <input id="icon_telephone" type="tel" class="validate">
-            <label for="icon_telephone">Telephone</label>
-          </div>
-          <div class="input-field col s12">
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-              <i class="material-icons right">send</i>
-            </button>
-          </div>      
+    <div class="index_title">
+      <h2>
+        <div class="title">
+          Остались вопросы?
+          <div class="line"></div>
         </div>
-      </form>
-     </div>
-      
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col s6">
+        <img src="./images/items/man2.png" alt="">
+      </div>
+      <div class="col s6">
+        <ul class="collapsible">
+          <li>
+            <div class="collapsible-header"><i class="material-icons">error_outline</i>Вопрос один</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">error_outline</i>Вопрос два</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">error_outline</i>Вопрос три</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
   <footer>
     <div class="contact-info">
-      <div class="contact__item">
-        <h5>Lorem, ipsum.</h6>
-        <p>Lorem, ipsum.</p>
-        <h5>Lorem, ipsum.</h6>
-        <p>Lorem, ipsum.</p>
-        <h5>Lorem, ipsum.</h6>
-        <p>Lorem, ipsum.</p>
+      <div class="contact__item z-depth-4">
+        <h5>Адрес:</h6>
+          <p>Lorem, ipsum.</p>
+          <h5>Телефон:</h6>
+            <p>Lorem, ipsum.</p>
+            <h5>Почта</h6>
+              <p>Lorem, ipsum.</p>
       </div>
     </div>
     <div class="map">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4e68d5868d557b696ab9e66717d0163813f764fb5603b5e51b8ba39810222a24&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+      <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4e68d5868d557b696ab9e66717d0163813f764fb5603b5e51b8ba39810222a24&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
   </footer>
 
