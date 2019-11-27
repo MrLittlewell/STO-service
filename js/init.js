@@ -9,7 +9,7 @@
       dist: 0,
       shift: 50,
       numVisible: 3,
-      duration: 100
+      duration: 100,
     });
     $('.right').click(function() {
       $('.carousel').carousel('next');
@@ -21,6 +21,8 @@
     $('.tooltipped').click(function() {
       $(this).open();
     })
+    M.updateTextFields();
+    $('select').formSelect();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 // $('.partnery-slider').slick({
@@ -59,3 +61,16 @@
 //     // instead of a settings object
 //   ]
 // });
+$(function(){
+	$nav = $('nav');
+	// $nav.css('width', $nav.outerWidth());
+	$window = $(window);
+	$h = $nav.offset().top;
+	$window.scroll(function(){
+		if ($window.scrollTop() > $h) {
+			$nav.addClass('white');
+		} else {
+			$nav.removeClass('white');
+		}
+	});
+});
