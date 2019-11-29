@@ -531,6 +531,7 @@ label {
 }
 .display-area {
   background: white;
+  border-radius: 30px;
 }
 .info__items a {
   border-radius: 0 15px 0 15px;
@@ -691,6 +692,9 @@ background-color:
   color: #001d9d;
 }
 form button.btn-large {
+  border-radius: 0 30px;
+}
+.tabs {
   border-radius: 0 30px;
 }
 @media only screen and (max-width : 1500px) {
