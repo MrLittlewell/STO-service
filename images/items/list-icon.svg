@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="list-icon" width="18" height="3" viewBox="0 0 18 3">
+    <defs>
+        <path id="o4tma" d="M473 8166h18v3h-18z"/>
+    </defs>
+    <g>
+        <g transform="translate(-473 -8166)">
+            <use fill="#ff6320" xlink:href="#o4tma"/>
+        </g>
+    </g>
+</svg>

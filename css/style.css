@@ -66,7 +66,8 @@ nav .nav-wrapper {
 #two {
   margin-top: -165px;
   z-index: 15;
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 #two .sub_header-wrapper {
   width: 100%;
@@ -273,7 +274,7 @@ a.uslugi_more h2 {
   font-weight: bold;
   color: #000;
 }
-#three, #four, #five, #six, #seven, #eight {
+#three, #four, #five, #six, #eight {
   padding: 50px 0;
 }
 .main-info {
@@ -292,10 +293,8 @@ a.uslugi_more h2 {
   margin: 0 10px;
   background-size: contain;
 }
-#seven, #four {
-  background: #f4f4f4;
-  background-color: #e7eff9;
-  background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+#four {
+  background: #f8f8f8;
 }
 
 #eight > .container > div {
@@ -448,7 +447,7 @@ height: 450px;
   height: 3px;
   background: #253984;
   bottom: -10px;
-  right: 30px;
+  left: 0;
 }
 .advantage__info {
   border-top: 1px solid #3434;
@@ -466,9 +465,6 @@ height: 450px;
   font-weight: bold;
   font-size: 26px;
 }
-#four {
-  background-color: #f4f4f4;
-}
 .info__items {
   position: absolute;
   z-index: 3;
@@ -480,6 +476,7 @@ height: 450px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  top: 0;
 }
 .info__items h1 {
   font-weight: bold;
@@ -527,6 +524,174 @@ label {
 }
 .modal {
   min-width: 400px;
+}
+#five {
+  background: url(../images/backgrounds/sec-2.jpg);
+  padding-top: 120px;
+}
+.display-area {
+  background: white;
+}
+.info__items a {
+  border-radius: 0 15px 0 15px;
+}
+.principle-wrapper {
+  width: 350px;
+  height: 450px;
+  display: block;
+  margin: 40px auto 80px;
+  box-shadow: 7px 25px 95px 
+rgba(94, 114, 121, 0.55);
+border-radius: 0 30px;
+background-color:
+  #ffffff;
+  padding-top: 61px;
+  padding-left: 43px;
+  position: relative;
+  overflow: visible;
+}
+.principle-wrapper .principle-number {
+  position: absolute;
+  color: #253984;
+  font-size: 80px;
+  font-weight: bold;
+  display: block;
+  left: 43px;
+  top: -45px;
+}
+.principle-wrapper .principle-title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  width: 253px;
+  margin-bottom: 35px;
+}
+ .principle-wrapper .principle-list {
+  margin-left: 29px;
+  padding: 0;
+  width: 270px;
+}
+.principle-wrapper .principle-list li {
+
+  list-style-image: url(../images/items/list-icon.svg);
+  margin-bottom: 25px;
+  color:#4f4f4f;
+  font-size: 15px;
+
+}
+.principle-next, .principle-prev {
+  top: 60%;
+  width: 80px;
+  height: 80px;
+}
+.principle-next {
+  right: 0;
+}
+ .slider-block {
+  width: 80px;
+  height: 80px;
+  border-radius: 0 20px;
+  background-color: #253984;
+  display: block;
+  position: relative;
+}
+.slider-block .arrow-icon {
+  width: 22px;
+  height: 14px;
+  display: block;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  fill: #fff;
+}
+.principle-prev {
+  left: 0;
+}
+#eight {
+  position: relative;
+}
+.swiper-button-next::after, .swiper-container-rtl .swiper-button-prev::after {
+  content: none;
+}
+.swiper-button-prev::after, .swiper-container-rtl .swiper-button-next::after {
+  content: none;
+}
+#nine .collapsible {
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+#nine .collapsible-header {
+  border-radius: 20px;
+}
+#nine {
+  margin-bottom: 50px;
+}
+#ten {
+  background: url(../images/backgrounds/form-bg-2.jpg);
+  height: 500px;
+}
+#ten h2 {
+  width: 450px;
+  color: #fff;
+  font-size: 52px;
+  margin-left: 120px;
+  font-weight: bold;
+}
+.form-ask {
+  width: 554px;
+  display: block;
+border-radius: 0 30px;
+background-color:
+  #ffffff;
+  margin-top: -820px;
+  padding-top: 90px;
+  padding-left: 97px;
+  padding-bottom: 73px;
+  z-index: 10;
+  float: right;
+  right: 10px;
+  margin-top: -320px;
+  position: relative;
+}
+.form-ask .form-text {
+  color: #000000;
+  font-size: 22px;
+  margin-bottom: 44px;
+}
+.form-ask .form-title span {
+  color: #253984;
+}
+.form-ask .form-title {
+  color: 
+  #191919;
+  font-size: 33px;
+  margin-bottom: 50px;
+}
+
+.footer-info .col.s4 {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.footer-info .col.s4:nth-last-child(1) {
+  align-items: flex-end;
+}
+.footer-info .col.s4:nth-last-child(2) p{
+  margin: 5px 0;
+}
+.footer-info .col.s4:nth-last-child(1) a:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+  color: #001d9d;
+}
+form button.btn-large {
+  border-radius: 0 30px;
 }
 @media only screen and (max-width : 1500px) {
   video {
