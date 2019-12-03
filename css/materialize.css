@@ -2192,8 +2192,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
-figcaption,
-figure,
+
 main {
   /* 1 */
   display: block;
@@ -2202,9 +2201,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
-figure {
-  margin: 1em 40px;
-}
+
 
 /**
  * 1. Add the correct box sizing in Firefox.

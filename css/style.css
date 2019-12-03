@@ -139,7 +139,7 @@ nav .nav-wrapper {
   fill: #fff;
   stroke:  #000;
   stroke-miterlimit: 10;
-  stroke-width: 2px;
+  stroke-width: 7px;
   opacity: 0.35;
 }
 .sub_header-block .sub_header-icon .sub_header-svg {
@@ -258,7 +258,7 @@ a.uslugi_more h2 {
 .tabs {
   height: auto;
   display: flex;
-  flex-direction: column;
+
 }
 .tabs .tab a {
   text-align: left;
@@ -335,8 +335,11 @@ footer {
   height: 260px;
 }
 .carousel .carousel-item {
-  height: auto;
   width: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 100%;
 }
 #seven>.container>div:nth-child(1) {
   min-width: 210px;
@@ -440,15 +443,7 @@ height: 450px;
   font-weight: bold;
   position: relative;
 }
-.advantage__title h2::after {
-  content: '';
-  position: absolute;
-  width: 220px;
-  height: 3px;
-  background: #253984;
-  bottom: -10px;
-  left: 0;
-}
+
 .advantage__info {
   border-top: 1px solid #3434;
 }
@@ -499,7 +494,7 @@ opacity: .5;
 }
 .display-area .waves-light.btn {
   margin-top: 20px;
-  width: 100%;
+  width: 50%;
 }
 tr td:nth-child(3) {
   font-weight: bold;
@@ -613,6 +608,11 @@ background-color:
 }
 #eight {
   position: relative;
+  background-image: url(../images/backgrounds/asks-bg.jpg);
+  background-size: cover;
+}
+#eight .index_title {
+  color: #fefefe;
 }
 .swiper-button-next::after, .swiper-container-rtl .swiper-button-prev::after {
   content: none;
@@ -628,11 +628,12 @@ background-color:
   border-radius: 20px;
 }
 #nine {
-  margin-bottom: 50px;
+  margin: 50px;
 }
 #ten {
   background: url(../images/backgrounds/form-bg-2.jpg);
-  height: 500px;
+  background-size: cover;
+  height: 650px;
 }
 #ten h2 {
   width: 450px;
@@ -654,7 +655,7 @@ background-color:
   z-index: 10;
   float: right;
   right: 10px;
-  margin-top: -320px;
+  margin-top: 20px;
   position: relative;
 }
 .form-ask .form-text {
@@ -696,6 +697,38 @@ form button.btn-large {
 }
 .tabs {
   border-radius: 0 30px;
+}
+#uslugi .index_title {
+  color: #fefefe;
+}
+.servise-table .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tabs .tab {
+  height: auto;
+}
+.grid figure h2 span {
+  font-size: 24px;
+}
+.servise-table .row .col.s11 {
+  margin-left: unset;
+  margin-bottom: 30px;
+}
+.grid figure img {
+  border-radius: 10px;
+}
+.grid figure {
+  max-width: unset;
+  min-width: unset;
+  width: 100%;
+}
+.info__items a {
+  align-self: flex-end;
+}
+.carousel .carousel-item > img {
+  max-width: 200px;
 }
 @media only screen and (max-width : 1500px) {
   video {
