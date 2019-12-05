@@ -82,7 +82,7 @@ nav .nav-wrapper {
   width: 25%;
   display: inline-block;
   padding-top: 76px;
-  padding-left: 57px;
+  padding-left: 30px;
   position: relative;
   -webkit-transition: background 1s;
   -moz-transition: background 1s;
@@ -99,7 +99,7 @@ nav .nav-wrapper {
 #two .sub_header-wrapper .sub_header-block .sub_header-title {
   color: 
   #000000;
-  font: 22px;
+  font-size: 18px;
   margin-bottom: 11px;
 }
 #two .sub_header-wrapper .sub_header-block .sub_header-title::after {
@@ -464,14 +464,19 @@ height: 450px;
   position: absolute;
   z-index: 3;
   width: 100%;
-  max-width: 800px;
-  margin-left: 15%;
+  /* max-width: 800px;
+  margin-left: 15%; */
   height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   top: 0;
+}
+.info__items h1, .info__items h3 {
+  max-width: 800px;
+  margin-left: 15%;
+  align-self: baseline;
 }
 .info__items h1 {
   font-weight: bold;
@@ -687,16 +692,22 @@ background-color:
 .footer-info .col.s4:nth-last-child(2) p{
   margin: 5px 0;
 }
-.footer-info .col.s4:nth-last-child(1) a:nth-child(1) {
-  font-size: 30px;
+.footer-info .col.s4:nth-last-child(1) a:nth-child(1),
+.footer-info .col.s4:nth-last-child(1) a:nth-child(2) {
+  font-size: 18px;
   font-weight: bold;
   color: #001d9d;
+}
+.footer-info .col.s4:nth-last-child(1) a:nth-child(4) {
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 10px;
 }
 form button.btn-large {
   border-radius: 0 30px;
 }
 .tabs {
   border-radius: 0 30px;
+  white-space: unset!important;
 }
 #uslugi .index_title {
   color: #fefefe;
@@ -724,12 +735,56 @@ form button.btn-large {
   min-width: unset;
   width: 100%;
 }
-.info__items a {
-  align-self: flex-end;
-}
+
 .carousel .carousel-item > img {
   max-width: 200px;
 }
+.servise-table .display-area {
+  padding-bottom: 10px;
+}
+.contact-info h6 {
+  font-weight: bold;
+}
+.contact-info a {
+  color: rgba(0, 0, 0, 0.87);
+}
+.contact-info p {
+  margin-bottom: 0;
+}
+.two-bloks {
+  display: flex;
+}
+.two-bloks div:nth-child(1) {
+  background: url(../images/items/Remont.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+.two-bloks div:nth-child(2){
+  margin-left: 10px;
+  background-color: #253984;
+}
+.two-bloks > div {
+  height: 130px;
+  width: 100%;
+  color: #fefefe;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.two-bloks a, .two-bloks p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: #fefefe;
+  margin: 0;
+  align-items: center;
+
+}
+.two-bloks span {
+  margin-left: 20px;
+}
+
 @media only screen and (max-width : 1500px) {
   video {
     height: 100vw;
